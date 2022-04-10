@@ -1,0 +1,21 @@
+#2a
+
+dbinom(4, 20, 0.2)
+
+#result: 0.2181994
+
+#2b
+
+hist(dbinom(4, 20, 0.2))
+
+#2c
+
+rataan <- 20*0.2
+rataan
+
+#result: 4
+
+varian <- 20*0.2*0.8
+varian
+
+#result: 3.2
