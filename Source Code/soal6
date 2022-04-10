@@ -1,0 +1,10 @@
+#6a
+
+set.seed(1)
+a <- rnorm(100, 50, 8)
+a.z <- (a - 50)/8
+plot(a.z, type="o")
+
+#6b
+
+library(rcompanion); plotNormalHistogram(a, main="5025201174_Selfira Ayu Sheehan_Probstat_D_DNHistogram", breaks = 50)
