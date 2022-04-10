@@ -6,7 +6,7 @@ dpois(6, 4.5)
 
 #3b
 
-set.seed(1);hist(rpois(365,4.5), xlim=c(6.01, 6.99)
+set.seed(1);hist(rpois(365,4.5), xlim=c(6.01, 6.99))
 
 #3c
 
