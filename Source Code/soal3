@@ -1,0 +1,27 @@
+#3a
+
+dpois(6, 4.5)
+
+#result: 0.1281201
+
+#3b
+
+set.seed(1);hist(rpois(365,4.5), xlim=c(6.01, 6.99)
+
+#3c
+
+#a merupakan peluang bayi berjumlah 6 yang akan lahir
+#di rumah sakit ini, sedangkan histogram pada b menujukkan
+#banyaknya hari dimana pada hari itu terdapat 6 bayi yang lahir
+
+#3d
+
+rataan <- 4.5
+rataan
+
+#result: 4.5
+
+varian <- 4.5
+varian
+
+#result: 4.5
