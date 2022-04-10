@@ -12,18 +12,17 @@ Kelas: Probabilitas dan Statistik D
    ```
    dgeom(3,0.20)
    ```
-   Hasil:
-   
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620391-84d15bbe-2d51-49c5-9a5a-30cbaa85169c.png)
    
    
    b. Mean Distribusi Geometrik dengan 10.000 data random, prob = 0.20 dimana Distribusi Geometrik acak tersebut x = 3  
    
-   
    ```
    set.seed(1); mean(rgeom(10000,0.20)==3)
-   ```
-   Hasil:
-   
+   ```  
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620490-c64a7ccd-f6d6-4f9f-a19e-ee77880468bb.png)
    
    
    c. Bandingkan hasil poin a dan b, apa kesimpulan yang bisa didapatkan?  
@@ -38,8 +37,8 @@ Kelas: Probabilitas dan Statistik D
    ```
    hist(dgeom(3, 0.20))
    ```
-   Hasil:
-   
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620575-670b7020-15c5-47ac-8852-8bbef20cbf3b.png)
    
    
    e. Nilai rataan (μ) dan varian (σ²) dari Distribusi Geometrik  
@@ -49,15 +48,15 @@ Kelas: Probabilitas dan Statistik D
    rataan <- (1-0.2)/0.2
    rataan
    ```
-   Hasil:
-   
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620517-45ee6370-50c2-4415-b936-6d79657b5eb0.png)
    
    ```
    varian <- (1-0.2)/(0.2^2)
    varian
    ```
-   Hasil:
-   
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620541-05a204f0-0a2b-4dc8-8b74-39d3e6ed4606.png)   
    
 2. Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan:  
    a. Peluang terdapat 4 pasien yang sembuh  
@@ -66,8 +65,9 @@ Kelas: Probabilitas dan Statistik D
    ```
    dbinom(4, 20, 0.2)
    ```
-   Hasil:
-   
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620689-bd8468bb-50bf-4193-9436-68792e5fb378.png)
+
    
    b. Gambarkan grafik histogram berdasarkan kasus tersebut  
             
@@ -75,8 +75,9 @@ Kelas: Probabilitas dan Statistik D
    ```
    hist(dbinom(4, 20, 0.2))
    ```
-   Hasil:
-   
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620748-2255c45b-5efe-4cfc-a1a3-8d75c51db80e.png)
+
    
    c. Nilai rataan (μ) dan varian (σ²) dari Distribusi Binomial  
       
@@ -85,15 +86,17 @@ Kelas: Probabilitas dan Statistik D
    rataan <- 20*0.2
    rataan
    ```
-   Hasil:
-   
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620709-098c97cd-7ef7-4633-b5e0-9735fff3eadb.png)
+
    
    ```
    varian <- 20*0.2*0.8
    varian
    ```
-   Hasil:
-   
+   Hasil:  
+   ![image](https://user-images.githubusercontent.com/80016547/162620724-3685fb72-9c77-4423-9af2-df449bd0f5a5.png)
+
    
 3. Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari  
    a. Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok?  
