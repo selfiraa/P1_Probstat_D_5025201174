@@ -1,0 +1,22 @@
+#5a
+
+set.seed(1); rexp(1,3)
+
+#5b
+
+set.seed(1); hist(rexp(10, 3))
+set.seed(1); hist(rexp(100, 3))
+set.seed(1); hist(rexp(1000, 3))
+set.seed(1); hist(rexp(10000, 3))
+
+#5c
+
+rataan <- 1/3
+rataan
+
+#result: 0.3333333
+
+varian <- 1/(3^2)
+varian
+
+#result: 0.1111111
